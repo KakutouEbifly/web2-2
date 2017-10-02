@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <title>夢見がち工房</title>
+    <link rel="stylesheet" type="text/css" href="css/default.css">
+    <script type="text/javascript" src="js/default.js"></script>
+    
+    <script type="text/javascript">
+      $(function(){
+        $("#toggle").on("click", function(){
+          $("#target").fadeToggle("slow");
+        });
+      });
+    
+    </script>
+  </head>
+  
+  <body>
+    <div id="target">↓押すんやで</div>
+    <button id="toggle">切り替え</nutton>
+  </body>
+</html>
