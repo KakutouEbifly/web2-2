@@ -7,6 +7,7 @@
     <link rel="stylesheet" type="text/css" href="css/default.css">
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     
+    //切り替えプログラム
     <script type="text/javascript">
       $(function(){
         $("#toggle").on("click", function(){
@@ -15,6 +16,23 @@
       });
     
     </script>
+    
+    
+    //スクロールすると怖くなるシステム
+    <script type="text/javascript">
+      $(function(){
+        $("deadLine").mousemove(){
+          $("html,body").animate({scrollTop:0});
+          $("*").animate(
+            {
+              'color' : 'red', 'backgroundColor' : 'black'
+            }, 300
+          0);
+        });
+      });
+          
+    </script>
+    
   </head>
   
   <body>
